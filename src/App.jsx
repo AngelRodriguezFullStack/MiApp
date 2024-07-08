@@ -1,14 +1,15 @@
 import "./css/estilos.css";
-import { Mein } from "./components/Mein";
-
+import {NavBar} from "./components/NavBar"
+import {ItemListContainer} from "./components/ItemListContainer"
 
 
 function App () {
 
   return (
     <>
-      <h1>hola</h1>
-      <Mein />
+      <NavBar />
+      <ItemListContainer greeting="qlq" />
+      
       
      
     </>
